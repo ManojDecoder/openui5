@@ -10,13 +10,13 @@ sap.ui.core.Control.extend('sap.dennisseah.CircularRangeGauge', {
   renderer: function(oRm, oControl) {
     oRm.write("<div");
     oRm.writeControlData(oControl);
-    oRm.addClass("sap-dennisseah-circular-range-guage");
+    oRm.addClass("sap-dennisseah-circular-range-gauge");
     oRm.writeClasses();
     oRm.write('>');
 
     var val = oControl.getNormalizedValue();
     oRm.write('<canvas id="' + oControl.getId + '_canvas" width="50" height="50" style="position:absolute"></canvas>');       
-    oRm.write('<input class="sap-dennisseah-circular-range-guage-input" value="' + val + '" />');
+    oRm.write('<input class="sap-dennisseah-circular-range-gauge-input" value="' + val + '" />');
     oRm.write("</div>");
   },
   
