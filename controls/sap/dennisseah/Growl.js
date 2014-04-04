@@ -31,7 +31,7 @@ sap.ui.core.Control.extend('sap.dennisseah.Growl', {
     },
 
     onAfterRendering: function() {
-        if (this.getVisible() === false) {
+        if (this._show === false) {
             this.$().css('display', 'none');
         }
 
