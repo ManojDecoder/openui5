@@ -15,14 +15,13 @@ sap.ui.core.Control.extend('sap.dennisseah.Growl', {
     },
 
     renderer: function(oRm, oControl) {
-        if (oControl._show === false) {
-            return;
-        }
+        var visible = (oControl.getVisible()) : 'block' : 'none';
         oRm.write("<div");
         oRm.writeControlData(oControl);
         oRm.addClass("sap-dennisseah-growl-ui-notify");
         oRm.writeClasses();
-        oRm.write(' style="width:' + oControl.getWidth() + '">');
+        oRm.write(' style="width:' + oControl.getWidth());
+        oRm.write(' display:' + visible + '">');
 
         oRm.write('<div class="sap-dennisseah-growl-ui-notify-message sap-dennisseah-growl-ui-notify-message-style">');
         oRm.write('<a class="sap-dennisseah-growl-ui-notify-cross sap-dennisseah-growl-ui-notify-close" href="#">x</a>');
