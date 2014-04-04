@@ -21,7 +21,7 @@ sap.ui.core.Control.extend('sap.dennisseah.Growl', {
         oRm.addClass("sap-dennisseah-growl-ui-notify");
         oRm.writeClasses();
         oRm.write(' style="width:' + oControl.getWidth());
-        oRm.write(' display:' + visible + '">');
+        oRm.write(';display:' + visible + '">');
 
         oRm.write('<div class="sap-dennisseah-growl-ui-notify-message sap-dennisseah-growl-ui-notify-message-style">');
         oRm.write('<a class="sap-dennisseah-growl-ui-notify-cross sap-dennisseah-growl-ui-notify-close" href="#">x</a>');
