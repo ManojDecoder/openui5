@@ -1,0 +1,27 @@
+<html><head>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge' />
+
+<title>GitHub Test</title>
+    
+    <script id="sap-ui-bootstrap" 
+        type="text/javascript"
+        data-sap-ui-libs="sap.ui.commons,sap.m"
+        data-sap-ui-theme="sap_bluecrystal"
+        src="https://sapui5.netweaver.ondemand.com/resources/sap-ui-core.js"></script>
+        `
+
+    <script>
+        jQuery.sap.registerModulePath('sap.dennisseah', '../openui5/controls/sap/dennisseah');
+
+        jQuery(function() {
+           jQuery.sap.require("sap.dennisseah.CircularIconsGroup");
+             var circularControl = new sap.dennisseah.CircularIconsGroup();
+        });
+    </script>
+    
+    </head>
+
+    <body class='sapUiBody'>
+<div style="padding:150px;width: 200px"><div id='content'></div></div>
+    </body>
+</html>
