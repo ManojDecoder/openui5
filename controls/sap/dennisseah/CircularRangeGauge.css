@@ -1,0 +1,20 @@
+.sap-dennisseah-circular_range_guage{
+    width:50px;
+    height:50px;
+}
+
+.sap-dennisseah-circular_range-guage-input {
+  position:absolute; 
+  width:50px;
+  text-align:center; 
+  margin-top:15px; 
+  border:0px transparent; 
+  background-color: transparent;    
+  font-size:1em;
+  font-weight: bold;
+  color: #333;
+  opacity: 0.9;
+  z-index: 2;
+}
+
+
