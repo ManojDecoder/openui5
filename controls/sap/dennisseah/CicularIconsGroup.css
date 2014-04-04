@@ -1,0 +1,18 @@
+.sap-dennisseah-circular-icons-group {
+  border: solid;
+  opacity: 0.9;
+  border-radius: 50%;
+}
+
+.sap-dennisseah-circular-icons-group-btn { 
+  position: absolute;
+  display: table-cell;
+  opacity: 0.5;
+  padding: 5px;
+  border-radius: 100%;
+}
+
+.sap-dennisseah-circular-icons-group-btn:hover { 
+  opacity: 1;
+}
+
