@@ -15,7 +15,7 @@ sap.ui.core.Control.extend('sap.dennisseah.Growl', {
     },
 
     renderer: function(oRm, oControl) {
-        var visible = (oControl.getVisible()) : 'block' : 'none';
+        var visible = (oControl.getVisible()) ? 'block' : 'none';
         oRm.write("<div");
         oRm.writeControlData(oControl);
         oRm.addClass("sap-dennisseah-growl-ui-notify");
