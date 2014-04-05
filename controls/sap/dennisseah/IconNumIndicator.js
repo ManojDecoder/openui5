@@ -1,4 +1,4 @@
-sa.ui.core.Icon.extend('sap.dennisseah.IconNumIndicator', {
+sap.ui.core.Icon.extend('sap.dennisseah.IconNumIndicator', {
     metadata: {
         properties: {
             value: {type: "int", defaultValue: 0}
@@ -11,7 +11,7 @@ sa.ui.core.Icon.extend('sap.dennisseah.IconNumIndicator', {
 
     renderer: function(oRm, oControl) {
         oControl.setSize('25px');
- sap.ui.core.IconRenderer.render.apply(this, arguments);
+        sap.ui.core.IconRenderer.render.apply(this, arguments);
     },
 
     onAfterRendering: function() {
