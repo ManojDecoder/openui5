@@ -1,4 +1,4 @@
-ap-dennisseah-iconex-icon { 
+ap-dennisseah-iconnumindicator-icon { 
   background-color: #007cc0;
   color: white;
   padding: 15px;
@@ -7,7 +7,7 @@ ap-dennisseah-iconex-icon {
   border: 1px solid #005cc0;
 }
 
-.sap-dennisseah-iconex-num {
+.sap-dennisseah-iconnumindicator-num {
   position:absolute;
   margin: 0px;
   display: table;

@@ -6,7 +6,7 @@ sap.ui.core.Icon.extend('sap.dennisseah.IconNumIndicator', {
     },
     
     init : function() {
-        this.addStyleClass('sap-dennisseah-iconex-icon');
+        this.addStyleClass('sap-dennisseah-iconnumindicator-icon');
     },
 
     renderer: function(oRm, oControl) {
@@ -17,7 +17,7 @@ sap.ui.core.Icon.extend('sap.dennisseah.IconNumIndicator', {
     onAfterRendering: function() {
         var val = this.getValue();
         if (val !== 0) {
-            var num = $('<div class="sap-dennisseah-iconex-num"></div>');
+            var num = $('<div class="sap-dennisseah-iconnumindicatorx-num"></div>');
             num.html(val);
             this.$().append(num);
         }
