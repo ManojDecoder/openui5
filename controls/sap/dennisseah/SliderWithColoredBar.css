@@ -1,0 +1,31 @@
+.sap-dennisseah-sliderwithcoloredbar {
+  height: 40px !important;
+}
+
+.sap-dennisseah-sliderwithcoloredbar .sapUiSliR {
+  padding-top: 20px
+}
+
+.sap-dennisseah-sliderwithcoloredbar .bar {
+  border: 1px solid #999;
+  height: 20px;
+  margin-left: 2px;
+  margin-right: 5px;   
+}
+
+.sap-dennisseah-sliderwithcoloredbar .indicator {
+  height: 100%;
+}
+
+.sap-dennisseah-sliderwithcoloredbar .low {
+  background-color: #0F0;
+}
+
+.sap-dennisseah-sliderwithcoloredbar .medium {
+  background-color: #FF0;
+}
+
+.sap-dennisseah-sliderwithcoloredbar .high {
+  background-color: #F00;
+}
+
