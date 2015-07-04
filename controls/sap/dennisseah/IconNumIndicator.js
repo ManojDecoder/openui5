@@ -18,6 +18,7 @@ sap.ui.core.Icon.extend('sap.dennisseah.IconNumIndicator', {
         var val = this.getValue();
         if (val !== 0) {
             var num = $('<div class="sap-dennisseah-iconnumindicator-num"></div>');
+            num.attr('title', val);
             num.html(val);
             this.$().append(num);
         }
